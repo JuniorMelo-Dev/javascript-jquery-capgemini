@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor CLASSE</title>
+
+    <!--JS-->
+    <script>
+
+        //Função
+        function exibirTexto() {
+
+            //Armazenar a tag com a classe texto
+            var campo = document.getElementsByClassName("texto")[0];
+
+            //Exibir o conteúdo
+            alert(campo.innerHTML);
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <button onclick="exibirTexto()">Clique aqui</button>
+
+    <h1 class="texto">Desenvolvido por Junior Melo - Dev</h1>
+    <h2 class="texto">Estudante de Sistemas e Softwares</h2>
+    <p class="texto">Contendo aprendizado sobre seletores de Classe por ProWay.</p>
+    <footer class="texto">Desenvolvido em 2023</footer>
+
+</body>
+
+</html>
